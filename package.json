@@ -4,7 +4,7 @@
   "description": "A \"native-like\" desktop app for Google Messages. ",
   "main": "index.js",
   "scripts": {
-    "mac": "npx nativefier --conceal --platform \"mac\" --icon google-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Mac",
+    "mac": "npx nativefier --conceal --platform \"mac\" --icon app.icns --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Mac",
     "windows": "npx nativefier --platform \"windows\" --icon google-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Windows",
     "windows:tray": "npx nativefier --platform \"windows\" --icon google-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance --tray dist/Windows_Tray",
     "linux": "npx nativefier --platform \"linux\" --icon google-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Linux",
